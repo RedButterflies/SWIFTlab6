@@ -14,6 +14,9 @@ for i in tab.indices
     print("E\(i).: \(tab[i])", terminator: ",")
 }
 
+
+
+
 //zad6.2.2
 print("\n Wporwadz liczbe calkowita: ")
 var wczytana = readLine()!
@@ -28,6 +31,9 @@ print("Liczba \(liczba) zostala wprowadzona na 0 indeks tablicy")
 for i in tab.indices{
     print("E \(i).: \(tab[i])", terminator: ", ")
 }
+
+
+
 
 ////zad6.2.3
 
@@ -48,6 +54,10 @@ for i in tab.indices
 {
     print("E.\(i): \(tab[i])", terminator: ", ")
 }
+
+
+
+
 //zad6.3
 
 print("Wprowadz liczbe elementow tablicy: ")
@@ -92,7 +102,12 @@ else
 {
     print("Wprowadzona liczba nie jest pierwszym ani ostatnim elementem tablicy")
 }
-        
+
+
+
+
+
+
 //zad6.4
 print("Wprowadz liczbe elementow tablicy: ")
 var wpisanaLiczbaE = readLine()!
@@ -166,6 +181,12 @@ for i in tablicaD.indices
     print("\(tablicaD[i])", terminator: ", ")
 }
 print("\n")
+
+
+
+
+
+
 //zad 6.5
 print("Wprowadz liczbe elementow dla tablicy liczb zmiennoprzecinkowych: ")
 var wprowadzLE = readLine()!
@@ -209,6 +230,11 @@ for i in posortowana.indices
 }
 print("\n Najmniejsza liczba w tablicy: \(posortowana[0])")
 print("\n Najwieksza liczba w tablicy: \(posortowana[posortowana.count-1])")
+
+
+
+
+
 
 //zad6.6
 print("Wprowadz liczbe elementow tablicy: ")
@@ -282,6 +308,12 @@ else
     print("Najdluzszy podciag rosnacy: \(najdluzszy)")
 
 }
+
+
+
+
+
+
 //zad6.7
 var tablicaDwuWym : [[Int]] = Array ()
 var wiersz1 : [Int] = Array(repeating: 7, count: 4)
@@ -301,6 +333,12 @@ for i in tablicaDwuWym.indices
     
 }
 //print("]\n", terminator: "")
+
+
+
+
+
+
 //zad6.8
 //MACIERZE
 print("Wprowadz liczbe wierszy macierzy: ")
